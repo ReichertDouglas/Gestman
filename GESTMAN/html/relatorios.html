@@ -22,7 +22,7 @@
 
         // Se não existir ou estiver vazio, redireciona para a página de login
         if (!usuarioLogado) {
-            window.location.href = "login.html"; // Altere para a página de login desejada
+            window.location.href = "index.html"; // Altere para a página de login desejada
         }
     </script>
 </head>
@@ -419,7 +419,7 @@
         // Botão de logout
         document.getElementById('logoutBtn').addEventListener('click', function () {
             localStorage.removeItem('isLoggedIn');
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         });
     </script>
     <script src="/scripts/relatorio.js"></script>
