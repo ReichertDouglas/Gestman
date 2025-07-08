@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the user is logged in
+            if (localStorage.getItem("loggedIn") === "true") {
+                // Redirect to the main page
+                window.location.href = "/GESTMAN/html/dashboard.html";
+            } else {
+                // Redirect to the login page
+                window.location.href = "/GESTMAN/html/login.html";
+            }
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
